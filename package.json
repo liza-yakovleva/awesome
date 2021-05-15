@@ -1,6 +1,6 @@
 {
   "name": "awesome",
-  "version": "0.4.0",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
@@ -43,18 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/liza-yakovleva/awesome_project.git"
-  },
-  "author": "liza yakovleva",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/liza-yakovleva/awesome_project/issues"
-  },
-  "homepage": "https://github.com/liza-yakovleva/awesome_project#readme"
+  }
 }

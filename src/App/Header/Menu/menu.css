@@ -1,0 +1,14 @@
+.navigation-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #939699;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+.navigation-item:last-child {
+  width: 15px;
+}

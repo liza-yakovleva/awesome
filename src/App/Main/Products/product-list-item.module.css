@@ -1,0 +1,30 @@
+.artc_art_ico_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+     width: 40px;
+  margin: 0 auto;
+}
+.artc_art_num {
+  color: #272727;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.btn_like {
+   width: 15px;
+  border: none;
+  padding: 0px !important;
+  margin: 0px !important;
+  background-color: #ffffff00 !important;
+}
+.artc_art_ico_box i {
+  text-decoration: none;
+  color: #a0a0a0;
+}
+
+.artc_dowland_ico {
+  width: 15px;
+  height: 15px;
+}

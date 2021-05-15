@@ -1,0 +1,29 @@
+/* .button {
+  padding: 10px 20px;
+  background: #7045ff;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+} */
+
+.button-icon,
+.button-price {
+  margin-right: 10px;
+
+}
+
+.button-icon {
+  margin-left: 10px;
+}
+
+.button-icon:last-child {
+  margin-right: 0;
+
+}

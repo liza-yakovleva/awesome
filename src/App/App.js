@@ -99,9 +99,9 @@ closeModalBin = () => {
       < div data-aos = "zoom-in" >
         < Route path="/productsBestseller" render={() => < ProductsList data={this.state.data} sort={"Bestseller"} />} />
         </div>
-      < div data-aos = "zoom-in" >
+      
       { this.state.modalBin ? <CartList modalBin={this.state.modalBin} closeModalBin={this.closeModalBin} /> : null}
-        </div>
+      
       < div data-aos = "zoom-in" >
         <Route path="/" render={() => <Footer />} />
          </div>

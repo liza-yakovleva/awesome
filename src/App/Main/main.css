@@ -873,3 +873,29 @@ height: 30px;
  
 
 }
+
+.parallax-effect-glare-scale {
+  /* @include background; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 0);
+  border: none;
+  transform-style: preserve-3d;
+}
+ .parallax-effect-glare-scale .inner-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-style: italic;
+    color: white;
+    transform: translateZ(60px);
+  }
+.card {
+  width: 100%;
+  z-index: 1000;
+}

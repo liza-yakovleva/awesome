@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import s from './product-list-item.module.css'
 import heart_dis from '../../../common/img/heart-regular.svg'
 import heart_like from '../../../common/img/heart-solid.svg'
-
+import Tilt from 'react-parallax-tilt';
 const ProductListItem = ({
 	isLiked = false,
 	productAddLike,
@@ -21,6 +21,13 @@ const ProductListItem = ({
 
 	return (
 		<>
+			<Tilt
+    className="parallax-effect-glare-scale"
+    perspective={800}
+    glareEnable={true}
+    glareMaxOpacity={0.45}
+    scale={1.02}
+  >
 			<div className="goods-card">
 			{
 					label
@@ -62,8 +69,10 @@ const ProductListItem = ({
       </svg>
 				<span className="button-price">${price}</span>
 			</button>
-		</div>
-		</>
+			</div>
+			</Tilt>
+			</>
+			
 	)
 }
 

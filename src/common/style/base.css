@@ -39,7 +39,10 @@ img {
   line-height: 20px;
   letter-spacing: 0.5px;
 }
-
+.navigation-link:hover {
+  color: #7045ff;
+ 
+}
 button {
   cursor: pointer;
 }
@@ -306,6 +309,7 @@ button {
   text-align: center;
   padding: 30px 35px 35px;
   min-height: 450px;
+  z-index: 1000;
 }
 
 .goods-card .label {
@@ -406,6 +410,35 @@ button {
   vertical-align: middle;
   margin-right: 25px;
 }
+.logo-image {
+  z-index: 1000;
+}
+.track-on-window {
+  /* @include background; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 0);
+  border:none;
+ 
+
+  transform-style: preserve-3d;
+}
+ .track-on-window .inner-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-style: italic;
+    color: rgb(140, 62, 241);
+    transform: translateZ(60px);
+  }
+
 
 .overlay {
   display: none;

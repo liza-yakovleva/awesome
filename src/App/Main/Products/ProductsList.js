@@ -2,12 +2,16 @@ import React from 'react'
 import ProductsListItem from './ProductsListItem'
 import {connect} from 'react-redux'
 import { keys } from 'lodash'
-
-const ProductsList = ({sort,productLikeState, data}) => {
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+const ProductsList = ({ sort, productLikeState, data }) => {
+  AOS.init();
      return (
        <>
-         	<section className="long-goods">
-		<div className="container">
+       
+         	<section className = "long-goods">
+		<div className = "container"
+		data-aos = "zoom-in" >
 			<div className="row align-items-center mb-4">
 				<div className="col-12">
 					<h2 className="section-title">Category</h2>
@@ -66,6 +70,7 @@ const ProductsList = ({sort,productLikeState, data}) => {
              </div>
            </div>
            </section>
+           
  </>
  )
 }
